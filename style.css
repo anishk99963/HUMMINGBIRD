@@ -1,0 +1,398 @@
+/* general */
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: auto;
+}
+
+/* navbar */
+@media (min-width: 1280px) {
+
+  .myNavbar img {
+    padding-left: 120px;
+  }
+  .navbar {
+    padding: 0;
+    width: 100%;
+  }
+
+  .navbar ul {
+    margin: 0;
+    padding-right: 180px;
+    display: flex;
+    align-items: end;
+    list-style: none;
+    align-items: center;
+  }
+
+  .navbar li {
+    position: relative;
+    text-transform: uppercase;
+  }
+
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+
+  .navbar a i,
+  .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover > a {
+    color: #fff;
+  }
+
+  .navbar .join-whitelist,
+  .navbar .join-whitlist:focus {
+    background: #31af36;
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  /* .navbar .join-whitelist,
+        .navbar .join-whitlist:focus:hover {
+            
+        } */
+}
+
+/* navbar ends */
+/* section 1 */
+.bird {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(images/slider.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 120px 0 60px 0;
+}
+
+.bird h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+}
+
+.bird-1-title {
+  border-right: 1px solid #fff;
+}
+
+.bird-1-heading {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.bird p {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+.bird input {
+  opacity: 0.6;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 20px;
+}
+
+.bird button {
+  margin-left: 20px;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #31af36;
+  padding: 7px 30px 9px 30px;
+}
+
+/* section 1 ends */
+
+/* section2 */
+.bird-2 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 120px 0 60px 0;
+}
+
+/* .bird-2-title {
+  padding-top: 30px;
+} */
+
+.bird-2 h1,
+p {
+  font-size: normal;
+  text-align: center;
+}
+
+.bird-2 h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.bird-2 p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.bird-2 img {
+  max-width: 100%;
+}
+
+.card_slider {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #31af36 !important;
+}
+
+.swiper_bullets {
+  padding-bottom: 25px;
+  margin: 10px;
+}
+
+/* section 2 ends */
+
+/* section 3 */
+
+.bird-3 {
+  background-image: url(images/image_2.png);
+  width: 100%;
+  height: 500px;
+}
+
+.bird-3 p {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.bird-3 h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+}
+
+.bird-3 a {
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #31af36;
+  padding: 10px 50px 12px 50px;
+}
+
+.bird-3-more {
+  padding-left: 645px;
+  padding-top: 15px;
+}
+/* section 3 ends  */
+/* section 4 */
+.bird-4 h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+}
+
+.bird-4 p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: center;
+}
+
+.bird-4 .birdCard p {
+  text-align: left;
+}
+
+.birdCard {
+  margin: 10px 60px;
+  padding: 25px 25px;
+}
+
+.birdCard h5 {
+  text-align: center !important;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 31px;
+}
+
+.birdCard p {
+  text-align: left;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 25px;
+}
+/* section 4 ends */
+/* section 5 */
+.bird-5 {
+  background-color: #4d4d4d;
+  height: 670px;
+  width: 100%;
+  margin: auto;
+  padding: 113px 120px;
+}
+
+.bird-5-block {
+  padding: 60px 65px;
+}
+
+.bird-5 .bird-5-title {
+  color: #31af36;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.bird-5-block p {
+  padding-top: 30px;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: left;
+}
+
+.bird-5-btn-para {
+  padding-top: 30px;
+}
+
+.bird-5-btn-para a {
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #31af36;
+  padding: 10px 50px 0px 50px;
+  text-align: center;
+}
+
+.bird-5-btn-para p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding-left: 85px;
+}
+
+/* section 5 ends */
+/* section 6 */
+.bird-6 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/image_3.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.bird-6 p {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  padding-top: 270px;
+}
+
+.bird-6 p span {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+}
+
+.bird-6-block {
+  padding-left: 515px;
+}
+
+.bird-6 input {
+  opacity: 0.6;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 50px;
+}
+
+.bird-6 button {
+  margin-left: 5px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #31af36;
+  padding: 8px 30px 10px 30px;
+}
+
+/* section 6 ends */
+/* section 7 */
+.bird-7 {
+  background-color: #4d4d4d;
+  width: 100%;
+  height: 280px;
+  padding-left: 600px;
+}
+
+.bird-7 .bird-7-logo {
+  padding-left: 150px;
+}
+
+.bird-7 .bird-7-title {
+  padding-left: 80px;
+}
+
+.bird-7 .bird-7-navbar {
+  list-style: none;
+  display: flex;
+  position: relative;
+}
+
+.bird-7 .bird-7-navbar li {
+  padding-right: 10px;
+  color: 255, 255, 255, 0.7;
+}
+
+.bird-7 .bird-7-icon {
+  padding-left: 70px;
+}
+
+.bird-7 .bird-7-icon img {
+  padding-left: 25px;
+}
+
+.bird-7 .bird-7-copy {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #B3B3B3;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+/* section 7 ends */
